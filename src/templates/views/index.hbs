@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Welcome to Weather Balloon</title>
+    <link rel="icon" href="/img/bloon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    {{>header}}
+
+    <main class="main-content">
+        <p>The most acceptable way to recieve real time weather information!</p>
+
+        <form>
+            <input placeholder="Location">
+            <button>GO!</button>
+        </form>
+
+        <p id='message-1'></p>
+        <p id='message-2'></p>
+    </main>
+
+    {{>footer}}
+
+    <script src="/js/java.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+:root {
+    --main-bg-color: rgb(82, 2, 82);
+    --text-color-default: #888888;
+}
+
+body {
+    color: white;
+    background: var(--main-bg-color);
+    font-family: Arial;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+footer {
+    background: yellow;
+    color: #333333;
+    border-top: 1px solid purple;
+    margin: 16px;
+    margin: 16px;
+    padding: 16px 0;
+}
+
+header {
+    background: yellow;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: var(--text-color-default);
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 650px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid var(--text-color-default);
+    background: var(--text-color-default);
+    color: white;
+    padding: 8px;
+}
