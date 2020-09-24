@@ -21,8 +21,8 @@ body {
 
 footer {
     background: rgb(54, 0, 75);
-    color: #333333;
-    border-top: 1px solid purple;
+    color: white;
+    border-top: 1.5px solid purple;
     margin: 16px;
     margin: 16px;
     padding: 16px 0;
@@ -33,13 +33,12 @@ header {
     background: rgb(54, 0, 75);
     margin-top: 16px;
     margin-bottom: 48px;
+    border-bottom: 1.5px solid purple;
     text-align: center;
 }
 
 h1 {
-    color: black;
-    stroke: white;
-    stroke-width: 1px;
+    color: rgb(190, 180, 36);
     font-size: 64px;
     margin-bottom: 16px;
 }
